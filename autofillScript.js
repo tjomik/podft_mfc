@@ -42,11 +42,19 @@ function deleteFromReport(question_number) {
     })
 }
 
-function autoCompleteQuestions() {
-    addToReport(1, 14).then(() =>
+function autoCompleteQuestions() {  
+        addToReport(1, 79).then(() =>
+        addToReport(1, 55).then(() =>
+        addToReport(1, 4).then(() =>
+        addToReport(1, 85).then(() =>
+        addToReport(1, 12).then(() =>
+        addToReport(1, 52).then(() =>
+        addToReport(1, 14).then(() =>
         addToReport(1, 37)).then(() =>
+        addToReport(1, 28)).then(() =>
         addToReport(1, 32)).then(() =>
         addToReport(1, 56)).then(() =>
+        addToReport(1, 58)).then(() =>
         addToReport(1, 33)).then(() =>
         addToReport(1, 34)).then(() =>
         addToReport(1, 43)).then(() =>
@@ -55,6 +63,8 @@ function autoCompleteQuestions() {
         addToReport(1, 46)).then(() =>
         addToReport(1, 47)).then(() =>
         addToReport(1, 48)).then(() =>
+        addToReport(1, 76)).then(() =>
+        addToReport(1, 77)).then(() =>
         deleteFromReport(62)).then(() =>
         deleteFromReport(16)).then(() =>
         deleteFromReport(17)).then(() =>
@@ -74,9 +84,10 @@ var btn = document.createElement('button');
 btn.innerHTML = 'Заполнить автоматически';
 btn.onclick = autoCompleteQuestions;
 btn.id = 'autofillButton';
+btn.style = '  background: #7dc8fa; background-image: -webkit-linear-gradient(top, #7dc8fa, #1f648f);background-image: -moz-linear-gradient(top, #7dc8fa, #1f648f);background-image: -ms-linear-gradient(top, #7dc8fa, #1f648f);background-image: -o-linear-gradient(top, #7dc8fa, #1f648f);background-image: linear-gradient(to bottom, #7dc8fa, #1f648f);-webkit-border-radius: 60;-moz-border-radius: 60;border-radius: 60px;font-family: Arial;color: #ffffff;font-size: 14px;padding: 7px 10px 7px 10px;text-decoration: none; margin-top: -25px'
 
-var place = document.getElementById('iss_name');
+var place = document.getElementsByClassName('header');
 var div_for_button = document.createElement('div');
 div_for_button.appendChild(btn);
-place.appendChild(div_for_button);
+place[0].appendChild(div_for_button);
 
