@@ -86,7 +86,7 @@ btn.onclick = autoCompleteQuestions;
 btn.id = 'autofillButton';
 //btn.style = '  background: #7dc8fa; background-image: -webkit-linear-gradient(top, #7dc8fa, #1f648f);background-image: -moz-linear-gradient(top, #7dc8fa, #1f648f);background-image: -ms-linear-gradient(top, #7dc8fa, #1f648f);background-image: -o-linear-gradient(top, #7dc8fa, #1f648f);background-image: linear-gradient(to bottom, #7dc8fa, #1f648f);-webkit-border-radius: 60;-moz-border-radius: 60;border-radius: 60px;font-family: Arial;color: #ffffff;font-size: 14px;padding: 7px 10px 7px 10px;text-decoration: none; margin-top: -25px'
 
-var place = document.getElementsByClassName('header');
+var place = document.getElementsByClassName('iss_name');
 var div_for_button = document.createElement('div');
 div_for_button.appendChild(btn);
 place[0].appendChild(div_for_button);
