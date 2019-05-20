@@ -44,12 +44,12 @@ function deleteFromReport(question_number) {
 
 function autoCompleteQuestions() {  
         addToReport(1, 79).then(() =>
-        addToReport(1, 55).then(() =>
-        addToReport(1, 4).then(() =>
-        addToReport(1, 85).then(() =>
-        addToReport(1, 12).then(() =>
-        addToReport(1, 52).then(() =>
-        addToReport(1, 14).then(() =>
+        addToReport(1, 55)).then(() =>
+        addToReport(1, 4))).then(() =>
+        addToReport(1, 85)).then(() =>
+        addToReport(1, 12)).then(() =>
+        addToReport(1, 52)).then(() =>
+        addToReport(1, 14)).then(() =>
         addToReport(1, 37)).then(() =>
         addToReport(1, 28)).then(() =>
         addToReport(1, 32)).then(() =>
